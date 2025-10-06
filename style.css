@@ -1,0 +1,60 @@
+/* General Page Styling */
+body {
+  background: #f4f7fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Card Containers */
+.login-container,
+.register-container {
+  max-width: 450px;
+  margin: 70px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h3, h4, h5 {
+  color: #004080;
+  font-weight: 600;
+}
+
+/* Buttons */
+.btn-primary, .btn-success, .btn-dark {
+  border-radius: 6px;
+  font-weight: 500;
+}
+
+.btn-primary:hover {
+  background-color: #003366;
+}
+
+.btn-success:hover {
+  background-color: #025a30;
+}
+
+.btn-dark:hover {
+  background-color: #000;
+}
+
+/* Navbar */
+.navbar {
+  border-radius: 0;
+}
+
+/* Tables */
+.table th, .table td {
+  vertical-align: middle;
+}
+
+/* Footer (optional) */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  color: #888;
+  font-size: 14px;
+}
